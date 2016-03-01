@@ -7,7 +7,12 @@
 //
 
 #import "AppDelegate.h"
-
+//融云即时通讯
+#import <RongIMKit/RongIMKit.h>
+#import <RongIMLib/RongIMLib.h>
+#import <UIKit/UIKit.h>
+//融云APPkey
+#define RongYunAPPKey @"6tnym1brnzy57"
 @interface AppDelegate ()
 
 @end
@@ -16,13 +21,44 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
-    NSLog(@"刘润东");
+   //融云即时通讯
+    //初始化融云SDK
+    [[RCIM sharedRCIM]initWithAppKey:RongYunAPPKey];
+   //推送处理1
+    if ([application respondsToSelector:@selector(registerUserNotificationSettings:)]) {
+        //注册推送 ios8
+        UIUserNotificationSettings *settings = [UIUserNotificationSettings settingsForTypes:(UIUserNotificationTypeBadge | UIUserNotificationTypeSound | UIUserNotificationTypeAlert) categories:nil];
+        [application registerUserNotificationSettings:settings];
+    }else{
+        UIRemoteNotificationType myTypes = UIRemoteNotificationTypeBadge | UIRemoteNotificationTypeAlert | UIRemoteNotificationTypeSound;
+        [application registerForRemoteNotificationTypes:myTypes];
+    }
+    //融云即时通讯
+    [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(didReceiveMessageNotification:) name:RCKitDispatchMessageNotification object:nil];
+    [[RCIM sharedRCIM]setConnectionStatusDelegate:self];
     
     // Override point for customization after application launch.
     return YES;
 }
 
+/**
+* 将得到的devicetonken 传给融云用于离线状态接受push ,app后台要上传推送证书
+**/
+
+-(void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(nonnull NSData *)deviceToken{
+    NSString *tonken = [[[[deviceToken description]stringByReplacingOccurrencesOfString:@"<" withString:@""] stringByReplacingOccurrencesOfString:@">" withString:@""] stringByReplacingOccurrencesOfString:@" " withString:@""];
+    [[RCIMClient sharedRCIMClient] setDeviceToken:tonken];
+}
+//网络状态变化
+-(void)onRCIMConnectionStatusChanged:(RCConnectionStatus)status{
+    if (status == ConnectionStatus_KICKED_OFFLINE_BY_OTHER_CLIENT ) {
+        UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"提示" message:@"您的账号在别的设备东路,您被迫下线!" delegate:nil cancelButtonTitle:@"知道了" otherButtonTitles:nil, nil];
+        [alert show];
+    }
+}
+-(void)didReceiveMessageNotification:(NSNotification *)notification{
+    [UIApplication sharedApplication].applicationIconBadgeNumber = [UIApplication sharedApplication].applicationIconBadgeNumber +1;
+}
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
     // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.

@@ -1,18 +1,18 @@
 //
-//  ChatViewController.m
+//  ChatListViewController.m
 //  SimpleLoveAPP
 //
-//  Created by lanou3g on 16/2/29.
-//  Copyright © 2016年 张泽. All rights reserved.
+//  Created by lanou3g on 16/3/1.
+//  Copyright © 2016年 刘润东. All rights reserved.
 //
 
-#import "ChatViewController.h"
+#import "ChatListViewController.h"
 
-@interface ChatViewController ()
+@interface ChatListViewController ()
 
 @end
 
-@implementation ChatViewController
+@implementation ChatListViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
