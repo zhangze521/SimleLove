@@ -112,7 +112,7 @@
         <!--聊天-->
         <scene sceneID="AJP-vi-S4I">
             <objects>
-                <viewController id="beh-wn-olP" customClass="ChatViewController" sceneMemberID="viewController">
+                <viewController id="beh-wn-olP" customClass="ChatListViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="TQP-3O-27H"/>
                         <viewControllerLayoutGuide type="bottom" id="7O9-D9-Wad"/>
@@ -122,7 +122,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="聊天" id="Lu4-BT-lWx"/>
+                    <navigationItem key="navigationItem" title="聊天" id="Lu4-BT-lWx">
+                        <barButtonItem key="rightBarButtonItem" title="单聊" style="plain" id="lyE-OB-fbA">
+                            <connections>
+                                <action selector="chat:" destination="beh-wn-olP" id="1Yx-xs-zXJ"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CXt-iE-bap" userLabel="First Responder" sceneMemberID="firstResponder"/>

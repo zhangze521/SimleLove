@@ -57,7 +57,7 @@
 		C2FC45821C8533F10087661B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2FC45811C8533F10087661B /* QuartzCore.framework */; };
 		C2FC45841C8533FC0087661B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2FC45831C8533FC0087661B /* SystemConfiguration.framework */; };
 		C2FC45861C8534020087661B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2FC45851C8534020087661B /* UIKit.framework */; };
-		C2FC458A1C8545F30087661B /* ChatListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FC45891C8545F30087661B /* ChatListViewController.m */; };
+		C2FC45931C85811F0087661B /* ChatListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FC45921C85811F0087661B /* ChatListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -118,8 +118,8 @@
 		C2FC45811C8533F10087661B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		C2FC45831C8533FC0087661B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		C2FC45851C8534020087661B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		C2FC45881C8545F30087661B /* ChatListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatListViewController.h; sourceTree = "<group>"; };
-		C2FC45891C8545F30087661B /* ChatListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatListViewController.m; sourceTree = "<group>"; };
+		C2FC45911C85811F0087661B /* ChatListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatListViewController.h; sourceTree = "<group>"; };
+		C2FC45921C85811F0087661B /* ChatListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -311,8 +311,8 @@
 		C21DE4891C8423E200CBEF19 /* 聊天 */ = {
 			isa = PBXGroup;
 			children = (
-				C2FC45881C8545F30087661B /* ChatListViewController.h */,
-				C2FC45891C8545F30087661B /* ChatListViewController.m */,
+				C2FC45911C85811F0087661B /* ChatListViewController.h */,
+				C2FC45921C85811F0087661B /* ChatListViewController.m */,
 			);
 			name = "聊天";
 			sourceTree = "<group>";
@@ -569,7 +569,7 @@
 				C21DE4651C84213E00CBEF19 /* main.m in Sources */,
 				C21DE49C1C84358A00CBEF19 /* FindViewController.m in Sources */,
 				C21DE4711C84213E00CBEF19 /* SimpleLoveAPP.xcdatamodeld in Sources */,
-				C2FC458A1C8545F30087661B /* ChatListViewController.m in Sources */,
+				C2FC45931C85811F0087661B /* ChatListViewController.m in Sources */,
 				C21DE4991C84356400CBEF19 /* HomeViewController.m in Sources */,
 				C21DE4A21C8435BD00CBEF19 /* MyViewController.m in Sources */,
 			);

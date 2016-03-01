@@ -37,6 +37,7 @@
     [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(didReceiveMessageNotification:) name:RCKitDispatchMessageNotification object:nil];
     [[RCIM sharedRCIM]setConnectionStatusDelegate:self];
     
+    
     // Override point for customization after application launch.
     return YES;
 }
