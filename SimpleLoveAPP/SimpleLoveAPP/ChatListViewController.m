@@ -30,7 +30,8 @@
         NSLog(@"登陆成功。当前登录的用户ID：%@", userId);
         dispatch_async(dispatch_get_main_queue(), ^{
             
-        
+            ChatListViewController *chatListVC= [[ChatListViewController alloc]init];
+            [self.navigationController pushViewController:chatListVC animated:YES];
         });
         
         
@@ -47,7 +48,24 @@
     
 }
 
-
+#pragma  mark --  提供给融云用户的信息 
+-(void)getUserInfoWithUserId:(NSString *)userId completion:(void (^)(RCUserInfo *))completion{
+    //此处延时一个用户信息
+    if ([@"test1"isEqual:userId]) {
+        RCUserInfo *user = [[RCUserInfo alloc]init];
+        user.userId = @"test1";
+        user.name = @"测试者1";
+        user.portraitUri = @"http://img1.imgtn.bdimg.com/it/u=798549561,3387527482&fm=21&gp=0.jpg";
+        return completion(user);
+        
+    }else if([@"2"isEqual:userId]){
+        RCUserInfo *user = [[RCUserInfo alloc]init];
+        user.userId= @"2";
+        user.name = @"测试者2";
+        user.portraitUri =@"http://img2.dwstatic.com/lol/1601/317642425546/317642824585.jpg";
+        return completion(user);
+    }
+    }
 
 
 

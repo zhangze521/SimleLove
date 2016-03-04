@@ -112,7 +112,7 @@
         <!--聊天-->
         <scene sceneID="AJP-vi-S4I">
             <objects>
-                <viewController id="beh-wn-olP" customClass="ChatListViewController" sceneMemberID="viewController">
+                <viewController id="beh-wn-olP" customClass="ChatViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="TQP-3O-27H"/>
                         <viewControllerLayoutGuide type="bottom" id="7O9-D9-Wad"/>
@@ -120,7 +120,29 @@
                     <view key="view" contentMode="scaleToFill" id="W4h-2j-xej">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="J68-E2-F5S">
+                                <rect key="frame" x="0.0" y="64" width="414" height="623"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ID" id="Rve-7V-mkN">
+                                        <rect key="frame" x="0.0" y="92" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Rve-7V-mkN" id="xxx-xC-OnL">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="J68-E2-F5S" firstAttribute="top" secondItem="TQP-3O-27H" secondAttribute="bottom" id="8Rc-6y-xhX"/>
+                            <constraint firstAttribute="trailing" secondItem="J68-E2-F5S" secondAttribute="trailing" id="L4M-Np-rZf"/>
+                            <constraint firstItem="7O9-D9-Wad" firstAttribute="top" secondItem="J68-E2-F5S" secondAttribute="bottom" id="SX4-Gu-DGF"/>
+                            <constraint firstItem="J68-E2-F5S" firstAttribute="leading" secondItem="W4h-2j-xej" secondAttribute="leading" id="v8b-VW-Jlg"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="聊天" id="Lu4-BT-lWx">
                         <barButtonItem key="rightBarButtonItem" title="单聊" style="plain" id="lyE-OB-fbA">
@@ -130,10 +152,13 @@
                         </barButtonItem>
                     </navigationItem>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="chatTV" destination="J68-E2-F5S" id="5Md-sd-tWY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CXt-iE-bap" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-954" y="1427"/>
+            <point key="canvasLocation" x="-1424" y="1431"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="tpx-cV-f2O">
@@ -232,7 +257,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eBX-Kd-pdA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1580" y="1427"/>
+            <point key="canvasLocation" x="-2196" y="1363"/>
         </scene>
     </scenes>
     <resources>

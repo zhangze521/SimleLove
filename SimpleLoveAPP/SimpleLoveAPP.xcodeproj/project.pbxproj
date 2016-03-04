@@ -28,6 +28,7 @@
 		C21DE4C31C8437E900CBEF19 /* wo.png in Resources */ = {isa = PBXBuildFile; fileRef = C21DE4B81C8437E900CBEF19 /* wo.png */; };
 		C21DE4C41C8437E900CBEF19 /* yes.png in Resources */ = {isa = PBXBuildFile; fileRef = C21DE4B91C8437E900CBEF19 /* yes.png */; };
 		C21DE4C61C843D3C00CBEF19 /* ai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C21DE4C51C843D3C00CBEF19 /* ai.jpg */; };
+		C22853131C86C7F6001683B2 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C22853121C86C7F6001683B2 /* ChatViewController.m */; };
 		C2FC45541C85265C0087661B /* Emoji.plist in Resources */ = {isa = PBXBuildFile; fileRef = C2FC454B1C85265C0087661B /* Emoji.plist */; };
 		C2FC45551C85265C0087661B /* RongCloudKit.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2FC454C1C85265C0087661B /* RongCloudKit.strings */; };
 		C2FC45561C85265C0087661B /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2FC454E1C85265C0087661B /* libopencore-amrnb.a */; };
@@ -88,6 +89,8 @@
 		C21DE4B81C8437E900CBEF19 /* wo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wo.png; sourceTree = "<group>"; };
 		C21DE4B91C8437E900CBEF19 /* yes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yes.png; sourceTree = "<group>"; };
 		C21DE4C51C843D3C00CBEF19 /* ai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ai.jpg; sourceTree = "<group>"; };
+		C22853111C86C7F6001683B2 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		C22853121C86C7F6001683B2 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
 		C2FC454B1C85265C0087661B /* Emoji.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Emoji.plist; sourceTree = "<group>"; };
 		C2FC454D1C85265C0087661B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/RongCloudKit.strings; sourceTree = "<group>"; };
 		C2FC454E1C85265C0087661B /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrnb.a"; sourceTree = "<group>"; };
@@ -313,6 +316,8 @@
 			children = (
 				C2FC45911C85811F0087661B /* ChatListViewController.h */,
 				C2FC45921C85811F0087661B /* ChatListViewController.m */,
+				C22853111C86C7F6001683B2 /* ChatViewController.h */,
+				C22853121C86C7F6001683B2 /* ChatViewController.m */,
 			);
 			name = "聊天";
 			sourceTree = "<group>";
@@ -572,6 +577,7 @@
 				C2FC45931C85811F0087661B /* ChatListViewController.m in Sources */,
 				C21DE4991C84356400CBEF19 /* HomeViewController.m in Sources */,
 				C21DE4A21C8435BD00CBEF19 /* MyViewController.m in Sources */,
+				C22853131C86C7F6001683B2 /* ChatViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
