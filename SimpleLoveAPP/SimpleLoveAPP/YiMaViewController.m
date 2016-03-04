@@ -1,23 +1,30 @@
 //
-//  ChatViewController.m
+//  YiMaViewController.m
 //  SimpleLoveAPP
 //
-//  Created by lanou3g on 16/2/29.
+//  Created by lanou3g on 16/3/2.
 //  Copyright © 2016年 张泽. All rights reserved.
 //
 
-#import "ChatViewController.h"
+#import "YiMaViewController.h"
 
-@interface ChatViewController ()
+@interface YiMaViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *nextDate;
 
 @end
 
-@implementation ChatViewController
-
+@implementation YiMaViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+}
+
+-(void)viewWillAppear:(BOOL)animated{
+    //取出数据
+    NSUserDefaults *user = [NSUserDefaults standardUserDefaults];
+    self.nextDate.text = [user objectForKey:@"nextDate"];
+
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

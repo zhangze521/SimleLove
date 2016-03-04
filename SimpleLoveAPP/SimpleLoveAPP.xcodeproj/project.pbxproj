@@ -29,6 +29,25 @@
 		C21DE4C31C8437E900CBEF19 /* wo.png in Resources */ = {isa = PBXBuildFile; fileRef = C21DE4B81C8437E900CBEF19 /* wo.png */; };
 		C21DE4C41C8437E900CBEF19 /* yes.png in Resources */ = {isa = PBXBuildFile; fileRef = C21DE4B91C8437E900CBEF19 /* yes.png */; };
 		C21DE4C61C843D3C00CBEF19 /* ai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C21DE4C51C843D3C00CBEF19 /* ai.jpg */; };
+		C291016F1C886C720041B0A6 /* AddDayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C291016E1C886C720041B0A6 /* AddDayViewController.m */; };
+		C29101721C886CA00041B0A6 /* DayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C29101711C886CA00041B0A6 /* DayViewController.m */; };
+		C29101751C886F790041B0A6 /* DayView.m in Sources */ = {isa = PBXBuildFile; fileRef = C29101741C886F790041B0A6 /* DayView.m */; };
+		C29CBEDA1C85C68300CE0823 /* TelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C29CBED91C85C68300CE0823 /* TelViewController.m */; };
+		C29CBEDD1C85C7A300CE0823 /* TelView.m in Sources */ = {isa = PBXBuildFile; fileRef = C29CBEDC1C85C7A300CE0823 /* TelView.m */; };
+		C29CBEE01C85DAC100CE0823 /* WriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C29CBEDF1C85DAC100CE0823 /* WriteViewController.m */; };
+		C2FB158C1C86971500586D87 /* phone.png in Resources */ = {isa = PBXBuildFile; fileRef = C2FB15871C86971500586D87 /* phone.png */; };
+		C2FB158D1C86971500586D87 /* movie2.png in Resources */ = {isa = PBXBuildFile; fileRef = C2FB15881C86971500586D87 /* movie2.png */; };
+		C2FB158E1C86971500586D87 /* map-marker.png in Resources */ = {isa = PBXBuildFile; fileRef = C2FB15891C86971500586D87 /* map-marker.png */; };
+		C2FB158F1C86971500586D87 /* pin.png in Resources */ = {isa = PBXBuildFile; fileRef = C2FB158A1C86971500586D87 /* pin.png */; };
+		C2FB15901C86971500586D87 /* book.png in Resources */ = {isa = PBXBuildFile; fileRef = C2FB158B1C86971500586D87 /* book.png */; };
+		C2FB15921C869C7C00586D87 /* hahaha.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2FB15911C869C7C00586D87 /* hahaha.jpg */; };
+		C2FB15971C86D3D300586D87 /* NavBar_64@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2FB15961C86D3D300586D87 /* NavBar_64@2x.png */; };
+		C2FB159B1C86E5FB00586D87 /* jinianri.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2FB159A1C86E5FB00586D87 /* jinianri.jpg */; };
+		C2FB159D1C86E6E500586D87 /* yima.png.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2FB159C1C86E6E500586D87 /* yima.png.jpg */; };
+		C2FB159F1C86E6E900586D87 /* yima2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2FB159E1C86E6E900586D87 /* yima2.jpg */; };
+		C2FB15A11C86EF4200586D87 /* riji.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2FB15A01C86EF4200586D87 /* riji.jpg */; };
+		C2FB15A91C870B6E00586D87 /* ZhouQiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FB15A81C870B6E00586D87 /* ZhouQiViewController.m */; };
+		C2FB15AC1C870B9500586D87 /* YiMaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FB15AB1C870B9500586D87 /* YiMaViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +80,33 @@
 		C21DE4B81C8437E900CBEF19 /* wo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wo.png; sourceTree = "<group>"; };
 		C21DE4B91C8437E900CBEF19 /* yes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yes.png; sourceTree = "<group>"; };
 		C21DE4C51C843D3C00CBEF19 /* ai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ai.jpg; sourceTree = "<group>"; };
+		C291016D1C886C720041B0A6 /* AddDayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddDayViewController.h; sourceTree = "<group>"; };
+		C291016E1C886C720041B0A6 /* AddDayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddDayViewController.m; sourceTree = "<group>"; };
+		C29101701C886CA00041B0A6 /* DayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayViewController.h; sourceTree = "<group>"; };
+		C29101711C886CA00041B0A6 /* DayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayViewController.m; sourceTree = "<group>"; };
+		C29101731C886F790041B0A6 /* DayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayView.h; sourceTree = "<group>"; };
+		C29101741C886F790041B0A6 /* DayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayView.m; sourceTree = "<group>"; };
+		C29CBED81C85C68300CE0823 /* TelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TelViewController.h; sourceTree = "<group>"; };
+		C29CBED91C85C68300CE0823 /* TelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TelViewController.m; sourceTree = "<group>"; };
+		C29CBEDB1C85C7A300CE0823 /* TelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TelView.h; sourceTree = "<group>"; };
+		C29CBEDC1C85C7A300CE0823 /* TelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TelView.m; sourceTree = "<group>"; };
+		C29CBEDE1C85DAC100CE0823 /* WriteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WriteViewController.h; sourceTree = "<group>"; };
+		C29CBEDF1C85DAC100CE0823 /* WriteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WriteViewController.m; sourceTree = "<group>"; };
+		C2FB15871C86971500586D87 /* phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phone.png; sourceTree = "<group>"; };
+		C2FB15881C86971500586D87 /* movie2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = movie2.png; sourceTree = "<group>"; };
+		C2FB15891C86971500586D87 /* map-marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map-marker.png"; sourceTree = "<group>"; };
+		C2FB158A1C86971500586D87 /* pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin.png; sourceTree = "<group>"; };
+		C2FB158B1C86971500586D87 /* book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book.png; sourceTree = "<group>"; };
+		C2FB15911C869C7C00586D87 /* hahaha.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hahaha.jpg; sourceTree = "<group>"; };
+		C2FB15961C86D3D300586D87 /* NavBar_64@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavBar_64@2x.png"; sourceTree = "<group>"; };
+		C2FB159A1C86E5FB00586D87 /* jinianri.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jinianri.jpg; sourceTree = "<group>"; };
+		C2FB159C1C86E6E500586D87 /* yima.png.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yima.png.jpg; sourceTree = "<group>"; };
+		C2FB159E1C86E6E900586D87 /* yima2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yima2.jpg; sourceTree = "<group>"; };
+		C2FB15A01C86EF4200586D87 /* riji.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = riji.jpg; sourceTree = "<group>"; };
+		C2FB15A71C870B6E00586D87 /* ZhouQiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZhouQiViewController.h; sourceTree = "<group>"; };
+		C2FB15A81C870B6E00586D87 /* ZhouQiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZhouQiViewController.m; sourceTree = "<group>"; };
+		C2FB15AA1C870B9500586D87 /* YiMaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YiMaViewController.h; sourceTree = "<group>"; };
+		C2FB15AB1C870B9500586D87 /* YiMaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YiMaViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +222,12 @@
 		C21DE4841C84236E00CBEF19 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C2FB15A01C86EF4200586D87 /* riji.jpg */,
+				C2FB159E1C86E6E900586D87 /* yima2.jpg */,
+				C2FB159C1C86E6E500586D87 /* yima.png.jpg */,
+				C2FB159A1C86E5FB00586D87 /* jinianri.jpg */,
+				C2FB15961C86D3D300586D87 /* NavBar_64@2x.png */,
+				C2FB15911C869C7C00586D87 /* hahaha.jpg */,
 				C21DE4C51C843D3C00CBEF19 /* ai.jpg */,
 				C21DE4AE1C8437E900CBEF19 /* Img */,
 			);
@@ -206,6 +258,10 @@
 			children = (
 				C21DE4971C84356400CBEF19 /* HomeViewController.h */,
 				C21DE4981C84356400CBEF19 /* HomeViewController.m */,
+				C2FB15A61C870AEE00586D87 /* 呼叫 */,
+				C2FB15A51C870AE300586D87 /* 纪念日 */,
+				C2FB15A41C870AD400586D87 /* 姨妈 */,
+				C2FB15A21C870AB100586D87 /* 日记本 */,
 			);
 			name = "首页";
 			sourceTree = "<group>";
@@ -334,6 +390,11 @@
 		C21DE4AE1C8437E900CBEF19 /* Img */ = {
 			isa = PBXGroup;
 			children = (
+				C2FB15871C86971500586D87 /* phone.png */,
+				C2FB15881C86971500586D87 /* movie2.png */,
+				C2FB15891C86971500586D87 /* map-marker.png */,
+				C2FB158A1C86971500586D87 /* pin.png */,
+				C2FB158B1C86971500586D87 /* book.png */,
 				C21DE4AF1C8437E900CBEF19 /* chat.png */,
 				C21DE4B01C8437E900CBEF19 /* back.png */,
 				C21DE4B11C8437E900CBEF19 /* fanhui.png */,
@@ -347,6 +408,50 @@
 				C21DE4B91C8437E900CBEF19 /* yes.png */,
 			);
 			path = Img;
+			sourceTree = "<group>";
+		};
+		C2FB15A21C870AB100586D87 /* 日记本 */ = {
+			isa = PBXGroup;
+			children = (
+				C29CBEDE1C85DAC100CE0823 /* WriteViewController.h */,
+				C29CBEDF1C85DAC100CE0823 /* WriteViewController.m */,
+			);
+			name = "日记本";
+			sourceTree = "<group>";
+		};
+		C2FB15A41C870AD400586D87 /* 姨妈 */ = {
+			isa = PBXGroup;
+			children = (
+				C2FB15A71C870B6E00586D87 /* ZhouQiViewController.h */,
+				C2FB15A81C870B6E00586D87 /* ZhouQiViewController.m */,
+				C2FB15AA1C870B9500586D87 /* YiMaViewController.h */,
+				C2FB15AB1C870B9500586D87 /* YiMaViewController.m */,
+			);
+			name = "姨妈";
+			sourceTree = "<group>";
+		};
+		C2FB15A51C870AE300586D87 /* 纪念日 */ = {
+			isa = PBXGroup;
+			children = (
+				C291016D1C886C720041B0A6 /* AddDayViewController.h */,
+				C291016E1C886C720041B0A6 /* AddDayViewController.m */,
+				C29101701C886CA00041B0A6 /* DayViewController.h */,
+				C29101711C886CA00041B0A6 /* DayViewController.m */,
+				C29101731C886F790041B0A6 /* DayView.h */,
+				C29101741C886F790041B0A6 /* DayView.m */,
+			);
+			name = "纪念日";
+			sourceTree = "<group>";
+		};
+		C2FB15A61C870AEE00586D87 /* 呼叫 */ = {
+			isa = PBXGroup;
+			children = (
+				C29CBEDB1C85C7A300CE0823 /* TelView.h */,
+				C29CBEDC1C85C7A300CE0823 /* TelView.m */,
+				C29CBED81C85C68300CE0823 /* TelViewController.h */,
+				C29CBED91C85C68300CE0823 /* TelViewController.m */,
+			);
+			name = "呼叫";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -406,20 +511,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2FB158F1C86971500586D87 /* pin.png in Resources */,
 				C21DE4C31C8437E900CBEF19 /* wo.png in Resources */,
 				C21DE4761C84213E00CBEF19 /* LaunchScreen.storyboard in Resources */,
+				C2FB15921C869C7C00586D87 /* hahaha.jpg in Resources */,
+				C2FB15971C86D3D300586D87 /* NavBar_64@2x.png in Resources */,
 				C21DE4BD1C8437E900CBEF19 /* find.png in Resources */,
 				C21DE4C41C8437E900CBEF19 /* yes.png in Resources */,
 				C21DE4BB1C8437E900CBEF19 /* back.png in Resources */,
+				C2FB15901C86971500586D87 /* book.png in Resources */,
 				C21DE4C01C8437E900CBEF19 /* remen.png in Resources */,
+				C2FB158C1C86971500586D87 /* phone.png in Resources */,
 				C21DE4731C84213E00CBEF19 /* Assets.xcassets in Resources */,
+				C2FB158E1C86971500586D87 /* map-marker.png in Resources */,
+				C2FB15A11C86EF4200586D87 /* riji.jpg in Resources */,
 				C21DE4BE1C8437E900CBEF19 /* my.png in Resources */,
+				C2FB159B1C86E5FB00586D87 /* jinianri.jpg in Resources */,
+				C2FB159F1C86E6E900586D87 /* yima2.jpg in Resources */,
+				C2FB158D1C86971500586D87 /* movie2.png in Resources */,
 				C21DE4C21C8437E900CBEF19 /* home.png in Resources */,
 				C21DE46E1C84213E00CBEF19 /* Main.storyboard in Resources */,
 				C21DE4C61C843D3C00CBEF19 /* ai.jpg in Resources */,
 				C21DE4BF1C8437E900CBEF19 /* no.png in Resources */,
 				C21DE4BC1C8437E900CBEF19 /* fanhui.png in Resources */,
 				C21DE4BA1C8437E900CBEF19 /* chat.png in Resources */,
+				C2FB159D1C86E6E500586D87 /* yima.png.jpg in Resources */,
 				C21DE4C11C8437E900CBEF19 /* shezhi.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,9 +549,17 @@
 			files = (
 				C21DE4681C84213E00CBEF19 /* AppDelegate.m in Sources */,
 				C21DE4651C84213E00CBEF19 /* main.m in Sources */,
+				C29101751C886F790041B0A6 /* DayView.m in Sources */,
+				C29CBEDA1C85C68300CE0823 /* TelViewController.m in Sources */,
 				C21DE49F1C8435B100CBEF19 /* ChatViewController.m in Sources */,
+				C291016F1C886C720041B0A6 /* AddDayViewController.m in Sources */,
+				C29CBEE01C85DAC100CE0823 /* WriteViewController.m in Sources */,
 				C21DE49C1C84358A00CBEF19 /* FindViewController.m in Sources */,
+				C2FB15AC1C870B9500586D87 /* YiMaViewController.m in Sources */,
+				C2FB15A91C870B6E00586D87 /* ZhouQiViewController.m in Sources */,
+				C29101721C886CA00041B0A6 /* DayViewController.m in Sources */,
 				C21DE4711C84213E00CBEF19 /* SimpleLoveAPP.xcdatamodeld in Sources */,
+				C29CBEDD1C85C7A300CE0823 /* TelView.m in Sources */,
 				C21DE4991C84356400CBEF19 /* HomeViewController.m in Sources */,
 				C21DE4A21C8435BD00CBEF19 /* MyViewController.m in Sources */,
 			);
@@ -584,6 +708,7 @@
 				C21DE47C1C84213E00CBEF19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

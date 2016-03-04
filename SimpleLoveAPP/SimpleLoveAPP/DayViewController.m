@@ -1,24 +1,24 @@
 //
-//  ChatViewController.m
+//  DayViewController.m
 //  SimpleLoveAPP
 //
-//  Created by lanou3g on 16/2/29.
+//  Created by lanou3g on 16/3/3.
 //  Copyright © 2016年 张泽. All rights reserved.
 //
 
-#import "ChatViewController.h"
+#import "DayViewController.h"
 
-@interface ChatViewController ()
+@interface DayViewController ()
 
 @end
 
-@implementation ChatViewController
-
+@implementation DayViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    // Do any additional setup after loading the view.
 }
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
